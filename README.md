@@ -367,3 +367,5 @@ Iterate: Adjust your media queries and styles as needed based on your tests.
   </html>
 ```
 # OUTPUT:7(v)
+![Screenshot 2023-12-29 163814](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/79a1971b-adaf-4a1a-bec1-6622125c7d7c)
+
