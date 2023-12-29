@@ -1,52 +1,13 @@
 # Ex-07-CSS
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-    /* Default Color Scheme */
-    body {
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        
-        a {
-            color: #007bff;
-        }
-        
-        /* Small Screen Adaptation */
-        @media (max-width: 600px) {
-            body {
-                background-color: #333;
-                color: #f4f4f4;
-            }
-        
-            a {
-                color: #28a745;
-            }
-        }
-        
-        /* Dark Mode Preference */
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #000;
-                color: #fff;
-            }
-        
-            a {
-                color: #17a2b8;
-            }
-        }
+AIM
+Using CSS media queries, modify the webpage's color scheme with the following requirements:
 
-</style>
-</head>
-<body>
-    <div>
-    Online Compiler For Computer Programming Languages 
-  </div>
-    <ul>
-        <li><a href="https://colab.research.google.com/">Python</a></li>
-        <li><a href="https://www.onlinegdb.com/">C- Language</a></li>
-        <li><a href="https://www.jdoodle.com/online-java-compiler/">JavaScript</a></li>
-  </body>
-  </html>
+Default Color Scheme: Background color: Light gray (#f4f4f4) Text color: Dark gray (#333) Link color: Blue (#007bff) Small Screen Adaptation (Max-width: 600px):
+
+Change the background color to dark gray (#333) Change the text color to light gray (#f4f4f4) Change the link color to light green (#28a745)
+
+Dark Mode Preference:
+
+If the user has set their device to dark mode, override the above styles with the following: Background color: Black (#000) Text color: White (#fff) Link color: Cyan (#17a2b8)
+
