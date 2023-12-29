@@ -223,4 +223,78 @@ Open your HTML file in a web browser and change the orientation of your device t
   </html>
 ```
 # OUTPUT:7(iii)
+![Screenshot 2023-12-29 162953](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/f2cf5776-850f-447a-bb9b-93a4670f6e45)
+![Screenshot 2023-12-29 163010](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/913f1d17-63ff-49dc-840b-06691b059553)
+![Screenshot 2023-12-29 163022](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/a9ef3cf0-2897-4326-8730-dbff0ad4bd0e)
 
+# Ex-07(iv)-CSS Responsive Typography
+# AIM
+To describe how you would use media queries to adjust typography (like font size and line spacing) on a website to improve readability across different device sizes, from mobile phones to large desktop monitors. Include a CSS code snippet in your explanation.
+
+# DESIGN STEPS: 7(iv)
+# Step 1:
+Identify the HTML elements you want to style. In your case, it’s the div and li elements.
+
+# Step 2:
+Identify the HTML elements you want to style. In your case, it’s the div and li elements.
+
+# Step 3:
+Use media queries to apply different styles for different device sizes. The @media rule is used in CSS to apply styles for specific media types/devices.
+
+# Step 4:
+Inside the media queries, specify the device size for which the styles should apply. You can use min-width and max-width properties to target devices with widths within a certain range.
+
+# Step 5:
+Adjust Typography: Inside each media query block, adjust the typography (like font size and line spacing) for the identified elements.
+
+# Step 6:
+Test Your Styles.
+
+# Step 7:
+Iterate: Adjust your media queries and styles as needed based on your tests.
+
+# CODE:7(iv)
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    div, li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    @media screen and (min-width: 600px) {
+        div, li {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        div, li {
+            font-size: 20px;
+            line-height: 1.7;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        div, li {
+            font-size: 22px;
+            line-height: 1.8;
+        }
+    }
+</style>
+</head>
+<body>
+     <div>
+    Online Compilers For  Programming Languages 
+  </div>
+    <ul>
+        <li><a href="https://www.online-python.com/">Python</a></li>
+        <li><a href="https://www.programiz.com/">C- Language</a></li>
+        <li><a href="https://www.jdoodle.com/online-java-compiler">JavaScript</a></li>
+  </body>
+  </html>
+```
+# OUTPUT:7(iv)
