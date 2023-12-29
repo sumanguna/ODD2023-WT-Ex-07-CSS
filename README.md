@@ -25,7 +25,7 @@ In the body section, create a division with the text “Saveetha Engineering Col
 Close the HTML structure.
 
 # CODE:7(i)
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -76,6 +76,8 @@ Close the HTML structure.
         <li><a href="https://www.jdoodle.com/online-java-compiler/">JavaScript</a></li>
   </body>
   </html>
+
+```
 
   # Output
   ![Screenshot 2023-12-29 155817](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/8c3985b8-6e67-49d1-9dfd-8c292cbb709e)
