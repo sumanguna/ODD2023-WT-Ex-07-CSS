@@ -24,7 +24,7 @@ In the body section, create a division with the text “Saveetha Engineering Col
 # Step 4:
 Close the HTML structure.
 
-# Code:7 (i):
+# CODE:7(i)
 
 <!DOCTYPE html>
 <html>
@@ -76,3 +76,32 @@ Close the HTML structure.
         <li><a href="https://www.jdoodle.com/online-java-compiler/">JavaScript</a></li>
   </body>
   </html>
+
+  # Output
+  ![Screenshot 2023-12-29 155817](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/8c3985b8-6e67-49d1-9dfd-8c292cbb709e)
+![Screenshot 2023-12-29 155847](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/0d9e7621-f594-4c51-a917-a2dc6dce9c45)
+
+# Ex-07(ii)-CSS
+# AIM
+To use a media query in CSS to apply different styles to a webpage for mobile devices (with widths less than 600px) and desktop devices (with widths greater than or equal to 600px) by providing an example CSS snippet to demonstrate your answer.
+
+# DESIGN STEPS:7(ii)
+# Step 1:
+Start the HTML document and create the root element.
+
+# Step 2:
+Inside , create the element and include a < style > element for CSS rules.
+
+# Step 3:
+Define CSS rules for desktop devices. Use a media query to define CSS rules for mobile devices.
+
+# Step 4:
+Create the element inside , which will contain the webpage content
+
+# Step 5:
+Inside , create a
+
+for the heading and an for the list of hyperlinks.
+
+# Step 6:
+End the HTML document by closing all open tags.
