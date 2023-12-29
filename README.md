@@ -432,3 +432,5 @@ Remember to test your website in both light and dark modes to ensure the colors 
 # OUTPUT:7(vi)
 ![Screenshot 2023-12-29 163847](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/d9893b1a-8f9e-4628-81ba-6dcf577bcb17)
 
+# RESULT:
+Therefore the code has been successfully executed.
