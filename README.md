@@ -298,3 +298,72 @@ Iterate: Adjust your media queries and styles as needed based on your tests.
   </html>
 ```
 # OUTPUT:7(iv)
+![Screenshot 2023-12-29 163419](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/1906dabc-2528-4d94-84c2-d60a700039cd)
+![Screenshot 2023-12-29 163435](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/a8676534-d6e4-4c7f-b7ef-ff19ac6fa09b)
+![Screenshot 2023-12-29 163454](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/9b8425eb-f47e-4838-9c23-27cd6b9c7159)
+
+# Ex-07(v)-Print-friendly CSS
+# AIM
+To use a media query to change the styling of a webpage when it is printed, such as changing the background to white and hiding non-essential elements. Provide a CSS example.
+
+# DESIGN STEPS:7(v)
+# Step 1:
+Identify the HTML elements you want to style. In your case, it’s the div and li elements.
+
+# Step 2:
+Define the base styles for these elements. This will be the default styling that applies when no media queries match.
+
+# Step 3:
+Use media queries to apply different styles for different media types. The @media rule is used in CSS to apply styles for specific media types/devices.
+
+# Step 4:
+Inside the media queries, specify the media type for which the styles should apply. You can use print to target printers.
+
+# Step 5:
+Adjust Styles: Inside each media query block, adjust the styles for the identified elements. You can change the background to white and hide non-essential elements.
+
+# Step 6:
+Test your styles using the print preview feature in browsers to ensure they work as expected.
+
+# Step 7:
+Iterate: Adjust your media queries and styles as needed based on your tests.
+
+# CODE:7(v)
+```
+<html>
+<head>
+<style type="text/css">
+    div, li {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    @media print {
+        body {
+            background-color: white;
+        }
+
+        div, li {
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        /* Add any non-essential elements you want to hide when printing */
+        .non-essential {
+            display: none;
+        }
+    }
+</style>
+</head>
+<body>
+     <div>
+    Online Compilers For  Programming Languages 
+  </div>
+    <ul>
+        <li><a href="https://www.online-python.com/">Python</a></li>
+        <li><a href="https://www.programiz.com/">C- Language</a></li>
+        <li><a href="https://www.jdoodle.com/online-java-compiler">JavaScript</a></li>
+  </body>
+  </html>
+```
+# OUTPUT:7(v)
