@@ -368,4 +368,67 @@ Iterate: Adjust your media queries and styles as needed based on your tests.
 ```
 # OUTPUT:7(v)
 ![Screenshot 2023-12-29 163814](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/79a1971b-adaf-4a1a-bec1-6622125c7d7c)
+# Ex-07(vi)-Dark Mode Implementation
+# AIM
+With the increasing popularity of dark mode in user interfaces, explain how you would use a media query to detect if the user has set their system to prefer a dark color scheme. Provide an example of how you would change the background and text colors of a website based on this preference.
+
+# DESIGN STEPS: 7(vi)
+# Step 1:
+Use the prefers-color-scheme media feature, which is used to detect if the user has requested the system use a light or dark color theme.
+
+# Step 2:
+The prefers-color-scheme media feature can have the values light, dark, or no-preference.
+
+# Step 3:
+In your CSS, you can use this feature within a @media rule to apply different styles depending on the user’s preference.
+
+# Step 4:
+You can set the background color to black and the text color to white when the user prefers a dark color scheme.
+
+# Step 5:
+Conversely, you can set the background color to white and the text color to black when the user prefers a light color scheme.
+
+# Step 6:
+If the user has no preference, you can choose a default color scheme.
+
+# Step 7:
+Remember to test your website in both light and dark modes to ensure the colors work well in both settings.
+
+# CODE: 7(vi)
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    body {
+        background-color: white;
+        color: black;
+    }
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-color: black;
+            color: white;
+        }
+    }
+    @media (prefers-color-scheme: light) {
+        body {
+            background-color: white;
+            color: black;
+        }
+    }
+</style>
+</head>
+<body>
+    <div>
+    Online Compilers For  Programming Languages 
+  </div>
+    <ul>
+        <li><a href="https://www.online-python.com/">Python</a></li>
+        <li><a href="https://www.programiz.com/">C- Language</a></li>
+        <li><a href="https://www.jdoodle.com/online-java-compiler">JavaScript</a></li>
+  </body>
+  </html>
+```
+# OUTPUT:7(vi)
+![Screenshot 2023-12-29 163847](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/d9893b1a-8f9e-4628-81ba-6dcf577bcb17)
 
