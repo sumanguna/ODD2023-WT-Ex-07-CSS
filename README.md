@@ -162,3 +162,65 @@ End the HTML document by closing all open tags.
 ```
         
 # OUTPUT
+![Screenshot 2023-12-29 162543](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/47fff6c6-4ee1-4d59-8640-dd6f24a65760)
+![Screenshot 2023-12-29 162557](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/7882478c-74a6-40bf-bf38-4d0e6659bdc4)
+![Screenshot 2023-12-29 162617](https://github.com/sumanguna/ODD2023-WT-Ex-07-CSS/assets/146914442/66927ccc-19c7-400f-8516-14f73256093c)
+
+# Ex-07(iii)-CSS Orientation-based Media Query
+# AIM
+To explain how you can use CSS media queries to apply different styles based on the orientation (landscape or portrait) of the device. Provide a CSS example where you change the background color of the body based on the orientation.
+
+# DESIGN STEPS:7(iii)
+# Step 1:
+Identify the section in your HTML file where you want to add the CSS. This is typically within the < style > tags in the section.
+
+# Step 2:
+Define a CSS media query for each orientation. The syntax for a media query is @media (orientation: value), where value can be either portrait or landscape.
+
+# Step 3:
+Within each media query, specify the CSS rules you want to apply. In this case, you want to change the background color of the body.
+
+# Step 4:
+Close the media query with a }.
+
+# Step 5:
+Repeat steps 2-4 for the other orientation.
+
+# Step 6:
+Save your HTML file.
+
+# Step 7:
+Open your HTML file in a web browser and change the orientation of your device to see the different styles applied.
+
+# CODE:7(iii)
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    @media (orientation: portrait) {
+        body {
+            background-color: rgb(228, 236, 192);
+        }
+    }
+
+    @media (orientation: landscape) {
+        body {
+            background-color: rgb(235, 144, 238);
+        }
+    }
+</style>
+</head>
+<body>
+     <div>
+    Online Compilers For  Programming Languages 
+  </div>
+    <ul>
+        <li><a href="https://www.online-python.com/">Python</a></li>
+        <li><a href="https://www.programiz.com/">C- Language</a></li>
+        <li><a href="https://www.jdoodle.com/online-java-compiler">JavaScript</a></li>
+  </body>
+  </html>
+```
+# OUTPUT:7(iii)
+
