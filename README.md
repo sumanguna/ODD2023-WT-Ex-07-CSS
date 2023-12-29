@@ -107,3 +107,58 @@ for the heading and an for the list of hyperlinks.
 
 # Step 6:
 End the HTML document by closing all open tags.
+# CODE: 7(ii)
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    /* Default Color Scheme */
+    body {
+            background-color: #ff0000;
+            color: #fa0000;
+        }
+        
+        a {
+            color: #a6ad58;
+        }
+        
+        /* Small Screen Adaptation */
+        @media (max-width: 600px) {
+            body {
+                background-color: #ff0000;
+                color: #f4f4f4;
+            }
+        
+            a {
+                color: #28a745;
+            }
+        }
+        
+        /* Dark Mode Preference */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #f0e800;
+                color: #fff;
+            }
+        
+            a {
+                color: #17a2b8;
+            }
+        }
+
+</style>
+</head>
+<body>
+     <div>
+    Online Compilers For  Programming Languages 
+  </div>
+    <ul>
+        <li><a href="https://www.online-python.com/">Python</a></li>
+        <li><a href="https://www.programiz.com/">C- Language</a></li>
+        <li><a href="https://www.jdoodle.com/online-java-compiler">JavaScript</a></li>
+  </body>
+  </html>
+```
+        
+# OUTPUT
